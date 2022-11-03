@@ -34,3 +34,16 @@ body{
 
 
 }
+
+.parrafoNosotros{
+    text-align: center;
+    color: brown;
+    background-color: bisque;
+    font-weight: bold;
+}
+
+.parrafoUs{
+    text-align: center;
+    background-color: azure;
+    background-image: url(https://media.ambito.com/p/e89ae2e259aa3d8db53266ba0e542451/adjuntos/239/imagenes/039/495/0039495428/730x0/smart/panaderosjpg.jpg);
+}
