@@ -11,39 +11,64 @@
     
 </head>
 <body class="container">
+
     <header>
+
+        <div class="container-fluid">
+            <nav class="navbar bg-bisque">
+                <div class="container-fluid">
+                  <a class="navbar-brand"></a>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </nav>
+
+        </div>
         <h1 class="text-center mt-5">Mandorla</h1>
+
         <nav>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Nosotros.html">Nosotros</a></li>
-                <li><a href="Panaderia.html">Panaderia</a></li>
-                <li><a href="Pasteleria.html">Pasteleria</a></li>
-                <li><a href="Catering.html">Catering</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a class="btn btn-primary" href="index.html">Inicio</a></li>
+                <li><a class="btn btn-primary" href="Nosotros.html">Nosotros</a></li>
+                <li><a class="btn btn-primary" href="Panaderia.html">Panaderia</a></li>
+                <li><a class="btn btn-primary" href="Pasteleria.html">Pasteleria</a></li>
+                <li><a class="btn btn-primary" href="Catering.html">Catering</a></li>
+                <li><a class="btn btn-primary" href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
-    </header>
 
-    <div class="padreFlex">
-        <div class="hijoFlex primero">
-            <p>Ultimas series</p>
+        
+        </header>
+
+    <div class="row">
+
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <p>Panaderia</p>
         </div>
 
-        <div class="hijoFlex segundo">
-            <p>Ultimas Peliculas</p>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <p>Segunda columna</p>
         </div>
 
-        <div class="hijoFlex tercero">
-            <p>Ultimos juegos</p>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <p>Tercera Columna</p>
         </div>
 
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <p>Cuarta Columna</p>
+        </div>
+
+    </div>
+
+    <div>
 
     </div>
     
     <Main>
-        <h2>Hacemos pedidos en toda Bogotá</h2>
-        <p>No dudes en confiar en nosotros, proveemos alimentos frescos, saludables y algunos a base de plantas. Son aptos para Diábeticos, Veganos y Deportistas.</p>
+        <h2 class="parrafoDos">Hacemos pedidos en toda Bogotá</h2>
+        <p class="parrafoTres">No dudes en confiar en nosotros, proveemos alimentos frescos, saludables y algunos a base de plantas. Son aptos para Diábeticos, Veganos y Deportistas.</p>
     </Main>
 
     <footer>
@@ -51,6 +76,10 @@
         <p class="parrafoFooter">Nuestas redes sociales en: Contacto</p>
     </footer>
 
-    
+
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </body>
 </html>

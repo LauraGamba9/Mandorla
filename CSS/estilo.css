@@ -1,0 +1,36 @@
+h1{
+    color: brown;
+    font-size: 150px black;
+    text-transform: uppercase;
+
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    text-align: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-image: url(https://thevegclub.cl/wp-content/uploads/2020/06/fondo-slider-veganbox-E-1.png);
+    
+}
+
+.parrafoDos{
+    text-align: center;
+    background-color: blanchedalmond;
+    text-transform: uppercase;
+}
+
+.parrafoTres{
+    text-align: left;
+    background-size: 230px;
+    background-color: cadetblue;
+    font-weight: bold;
+
+
+}
